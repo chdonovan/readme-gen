@@ -1,2 +1,3 @@
-# readme-gen
-Program generates a Readme file using node.js
+# Professional README Generator Starter Code
+
+[How to create a Professional README](./readme-guide.md)
