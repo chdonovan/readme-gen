@@ -2,6 +2,7 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
+const generateReadme = require("../../README-generator-master/utils/generateReadme");
 
 // TODO: Create an array of questions for user input
 function promptUser(){
@@ -65,12 +66,24 @@ function promptUser(){
         }
     ]);
 }
-promptUser();
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// promptUser();
+// async promise and app initialization
+async function init(){
+    try{
+        //ask user questions
+        const asnwers = await promptUser();
+        const generateContent = generateReadme(answers);
+        // writes a new readme file to dist directory
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log('readme generated succesfully');
+    }   catch(err){
+            console.log(err);
+        }
 
-// TODO: Create a function to initialize app
-function init() {}
 
-// Function call to initialize app
+    }
+// initializes app
 init();
+
+
+
