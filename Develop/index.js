@@ -10,7 +10,7 @@ function promptUser(){
     return inquirer.prompt([
         {
             type: "input",
-            name: "projectTitle",
+            name: "title",
             message: "Enter the Project Title",
         },
         {   
