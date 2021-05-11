@@ -3,7 +3,7 @@ function generateMarkdown(answers) {
   return `
 <h1 align="center"> ${answers.title}</h1>
 
-![badge] here  
+![badge](https://img.shields.io/badge/License-${answers.license}-brightgreen.svg)<br />
 
 ##Description
 ${answers.description}
