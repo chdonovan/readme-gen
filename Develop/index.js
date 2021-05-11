@@ -69,21 +69,21 @@ function promptUser(){
 }
 // promptUser();
 // async promise and app initialization
-async function init(){
-    try{
-        //ask user questions
-        const asnwers = await promptUser();
-        const generateContent = generateMarkdown(answers);
-        // writes a new readme file to dist directory
-        await writeFileAsync('./dist/README.md', generateContent);
-        console.log('readme generated succesfully');
-    }   catch(err){
-            console.log(err);
+    async function init(){
+        try{
+            //ask user questions
+            const answers = await promptUser();
+            const generateContent = generateMarkdown(answers);
+            // writes a new readme file to dist directory
+            await writeFileAsync('./dist/README.md', generateContent);
+            console.log('readme generated succesfully');
+        }   catch(err){
+                console.log(err);
+            }
+
+
         }
-
-
-    }
-// initializes app
+    // initializes app
 init();
 
 
