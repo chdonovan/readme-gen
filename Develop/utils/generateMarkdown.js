@@ -18,7 +18,7 @@ function generateMarkdown(asnwers) {
 ![badge] here  
 
 ##Description
-  ${asnwers.description}
+${answers.description}
 
 ## Table of Contents
 -[Description](#description)
@@ -26,24 +26,28 @@ function generateMarkdown(asnwers) {
 -[Usage](#usage)
 -[Contributing](#contribution)
 -[Tests](#tests)
--[Questions](#questions)
 -[License](#license)
 
 ## Installation
+${answers.installation}
 
 ## Usage
+${answers.usage}
 
-## Contribution
+## Contributing
+${answers.contribution}
 
 ## Tests
+${answers.tests}
 
 ## License
-
-## Questions
+${answers.license}
 
 ## username
+My GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 
-## email
+## Email
+Email me with and questions! ${answers.email}
 
 Read me gen message
     `;

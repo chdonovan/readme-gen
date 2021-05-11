@@ -31,7 +31,7 @@ function promptUser(){
         },
         {
             type: "input",
-            name: "contributuon",
+            name: "contribution",
             message:"enter contribution instructions",
         },
         {
