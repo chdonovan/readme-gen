@@ -2,7 +2,8 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const generateReadme = require("../../README-generator-master/utils/generateReadme");
+const generateMarkdown = require("./utils/generateMarkdown");
+const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
 function promptUser(){
@@ -72,7 +73,7 @@ async function init(){
     try{
         //ask user questions
         const asnwers = await promptUser();
-        const generateContent = generateReadme(answers);
+        const generateContent = generateMarkdown(answers);
         // writes a new readme file to dist directory
         await writeFileAsync('./dist/README.md', generateContent);
         console.log('readme generated succesfully');
