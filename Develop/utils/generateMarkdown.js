@@ -5,19 +5,19 @@ function generateMarkdown(answers) {
 
 ![badge](https://img.shields.io/badge/License-${answers.license}-brightgreen.svg)<br />
 
-##Description
+## Description
 ${answers.description}
 
 ## Table of Contents
 -[Description](#description)
 -[Instalation](#instalation)
 -[Usage](#usage)
--[Contributing](#contribution)
+-[Contributing](#contributing)
 -[Tests](#tests)
 -[License](#license)
 
-## Installation
-${answers.installation}
+## Instalation
+${answers.instalation}
 
 ## Usage
 ${answers.usage}
@@ -26,8 +26,7 @@ ${answers.usage}
 ${answers.contribution}
 
 ## Tests
-${answers.tests}
-
+${answers.testing}
 ## License
 ${answers.license}
 
@@ -37,7 +36,7 @@ My GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 ## Email
 Email me with and questions! ${answers.email}
 
-Read me gen message
+ ### README generated with readme gen
     `;
 }
 
