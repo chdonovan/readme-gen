@@ -1,10 +1,10 @@
 
-<h1 align="center"> MARK</h1>
+<h1 align="center"> ein</h1>
 
-![badge](https://img.shields.io/badge/License-Mozilla-brightgreen.svg)<br />
+![badge](https://img.shields.io/badge/License-Acdemic-brightgreen.svg)<br />
 
 ##Description
-EIUWN
+iejnvinj
 
 ## Table of Contents
 -[Description](#description)
@@ -18,22 +18,22 @@ EIUWN
 undefined
 
 ## Usage
-IECW
+ceinjiejnc
 
 ## Contributing
-CN
+ciejnc
 
 ## Tests
 undefined
 
 ## License
-Mozilla
+Acdemic
 
 ## username
 My GitHub: [chdonovan](https://github.com/chdonovan)<br />
 
 ## Email
-Email me with and questions! chrisdonovan311gmail.com
+Email me with and questions! chrisdonovan311@gmail.com
 
 Read me gen message
     
