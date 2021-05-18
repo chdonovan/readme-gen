@@ -1,10 +1,10 @@
 
-<h1 align="center"> iuddnu</h1>
+<h1 align="center"> readmegen</h1>
 
-![badge](https://img.shields.io/badge/License-Acdemic-brightgreen.svg)<br />
+![badge](https://img.shields.io/badge/License-Apache-brightgreen.svg)<br />
 
 ## Description
-djijiod
+Application generates a proffesional reamde.md file
 
 ## Table of Contents
 -[Description](#description)
@@ -15,18 +15,18 @@ djijiod
 -[License](#license)
 
 ## Instalation
-dibuiubd
+npm install inqurier
 
 ## Usage
-iubidubd
+chhc
 
 ## Contributing
-diubdiubd
+chdonovan- chris donovan
 
 ## Tests
-diubdiubd
+
 ## License
-Acdemic
+Apache
 
 ## username
 My GitHub: [chdonovan](https://github.com/chdonovan)<br />
