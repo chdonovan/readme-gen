@@ -1,10 +1,10 @@
 
-<h1 align="center"> README GENERATOR</h1>
+<h1 align="center"> Readme gen</h1>
 
 ![badge](https://img.shields.io/badge/License-MIT-brightgreen.svg)<br />
 
 ## Description
-project generates a readme.md file that popoulates fields based upon user input from the command line
+generates a readme file basedupon user input
 
 ## Table of Contents
 -[Description](#description)
@@ -20,10 +20,10 @@ project generates a readme.md file that popoulates fields based upon user input 
 -[License](#license)
 
 ## Instalation
-install node.js run "npm install inquirer" from the command line
+run "npm install inquirer"
 
 ## Usage
-use this application to generate a readme file   project uses node.js and inquirer
+uses NODE.js and inquirer
 
 ## Contributers
 
@@ -40,7 +40,7 @@ This project is covered under the MIT License
 My GitHub: [chdonovan](https://github.com/chdonovan)<br />
 
 ## Email
-Email me with any questions! chrisdonovan311@gmail.com
+Email me with any questions! chrisodnovan311@gmail.com
 
  ### README generated with readmegen
     
