@@ -10,10 +10,15 @@ ${answers.description}
 
 ## Table of Contents
 -[Description](#description)
+</br>
 -[Instalation](#instalation)
+</br>
 -[Usage](#usage)
--[Contributing](#contributing)
+</br>
+-[Contributers](#contributers)
+</br>
 -[Tests](#tests)
+</br>
 -[License](#license)
 
 ## Instalation
@@ -22,21 +27,24 @@ ${answers.instalation}
 ## Usage
 ${answers.usage}
 
-## Contributing
+## Contributers
+
+the following users contributed to this project
+</br>
 ${answers.contribution}
 
 ## Tests
 ${answers.testing}
 ## License
-${answers.license}
 
+This project is covered under the ${answers.license} License
 ## username
 My GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 
 ## Email
-Email me with and questions! ${answers.email}
+Email me with any questions! ${answers.email}
 
- ### README generated with readme gen
+ ### README generated with readmegen
     `;
 }
 
